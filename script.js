@@ -49,7 +49,7 @@ randomButton.addEventListener("click", generateGradient);
 copyButton.addEventListener("click", () => {
   textarea.value = style;
   document.execCommand('copy', textarea.select());
-  copyButton.innerText = 'Copied';
+  copyButton.innerText = 'Copied!';
   setTimeout(() => {
     copyButton.innerText = 'Copy';
   }, 400);
